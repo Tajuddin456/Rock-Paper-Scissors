@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R-P-S Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+<body >
+    <div class="game">
+        <h1 id="Title">Rock Paper Scissors</h1>
+        <h3 id="demo">All the Best!</h3>
+<!--  The Container  -->
+    <div class="container">
+
+<!--   The first section     -->
+        <div class="section">
+            <div class="info">
+                <h3>You :</h3><span id="playerScore">0</span>
+            </div>
+            <div class="show">
+                <i class="fa-regular fa-hand-rock"></i>
+            </div>
+        </div>
+<!--   The second section     -->
+        <div class="section">
+            <div class="info">
+                <h3>Computer :</h3><span id="computerScore">0</span>
+            </div>
+            <div class="show computer">
+                <i class="fa-regular fa-hand-scissors"></i>
+            </div>
+        </div>
+    </div>
+    <h4 id="demo2">Choose Moves !</h4>
+    <div class="movesleft">Moves Left: 5 </div>
+<!-- This selection div contains the buttons   -->
+    <div class="selection">
+        <button class="fa-regular fa-hand-rock" id="rock"></button>
+        <button class="fa-regular fa-hand-paper" id="paper"></button>
+        <button class="fa-regular fa-hand-scissors" id="scissors"></button>
+    </div>
+
+    <!--Final result of game -->
+    <h3 class="result"></h3> 
+          
+    <!--Reload the game -->
+  <button class="reload" ></button>
+</div>
+
+</body>
+</html>

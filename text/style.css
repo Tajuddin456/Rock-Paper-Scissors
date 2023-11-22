@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: khaki;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.container{
+    display: flex;
+}
+.container .section{
+    width: 350px;
+    margin: 20px 50px;
+  
+}
+.section .info{
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+}
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: rgb(236, 230, 230);
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgb(245, 236, 236);
+    height: 180px;
+    border-radius: 10px;
+}
+.show i{
+    font-size: 100px;
+    color: rgb(98, 0, 255);
+}
+h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+    margin-left: 270px;
+    margin-top: 5px;
+}
+.selection button{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : rgb(41, 40, 40);
+    font-size: 33px;
+    color: rgb(0, 255, 76);
+}
+
+#Title,#demo,#demo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.movesleft,.reload,.result,.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 406px;
+    
+  
+}
+.highlighted{
+    padding: 9px;
+    margin-top: 8px;
+    background-color: aqua;
+}
+
+.fa-beat{
+    /* Set initial animation duration */
+    animation-duration: 0.5s;
+}
+
+#demo2{
+    color: red;
+}
+.movesleft{
+    margin-top: 2px;
+}
